@@ -50,8 +50,8 @@ class LoginScreen extends StatelessWidget {
                     ),
                     ElevatedButton(onPressed: (){
                       Get.to(()=>);
-                    }, child: Text("Login Here")),
-                    TextButton(onPressed: (){}, child: Text(""))
+                    }, child: const Text("Login Here")),
+                    TextButton(onPressed: (){}, child: const Text(""))
                   ],
                 ),
               ),
